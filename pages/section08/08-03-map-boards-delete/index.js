@@ -45,7 +45,7 @@ export default function StaticRoutingMovedPage() {
           <span style={{margin: "10px"}}>{el.number}</span>
           <span style={{margin: "10px"}}>{el.title}</span>
           <span style={{margin: "10px"}}>{el.writer}</span>
-          <span><button id={el.number} onClick={onClickDelete}>삭제</button> </span>
+          <span><button id={el.number} onClick={onClickDelete}>삭제</button> {console.log(el.number)}</span>
         </div>
       ))}
     </>
